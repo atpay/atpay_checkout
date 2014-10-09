@@ -11,7 +11,6 @@ if(!class_exists('AtPay_Connect'))
 
       require_once(sprintf("%s/../lib/post_types.php", dirname(__FILE__)));
         $Post_Type_Items = new Post_Type_Items();
-        $Post_Type_Offers = new Post_Type_Offers();
 
       require_once(sprintf("%s/../lib/shortcode.php", dirname(__FILE__)));
 

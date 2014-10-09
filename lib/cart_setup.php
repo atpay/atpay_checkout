@@ -3,18 +3,13 @@
 function cart_setup(){ ?>
   <link href="//cdn.rawgit.com/noelboss/featherlight/master/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
 
-
   <script src="//cdn.rawgit.com/noelboss/featherlight/master/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
   <style>
-
-  p.added{
-
-    color: green !important;
-    font-size: 16px !important;
-
-  }
-
+    p.added{
+      color: green !important;
+      font-size: 16px !important;
+    }
   </style>
 
   <script type="text/javascript">
@@ -241,39 +236,6 @@ function cart_setup(){ ?>
         console.log(response);
       });
     }
-
-    function cartConfirm(price, ref) {
-      if(localStorage.atPayToken){
-        var r=confirm("Do you want to make this purchase?")}else{ var r=true}
-      if (r==true) {
-        var amount =  parseFloat(price.replace("$", ""));
-        if(localStorage.atPayToken){
-          var overlay = jQuery('<div class="atpay_overlay"><div class="atpay_overlayB"></div> </div>');
-          $(overlay).hide().appendTo("body").fadeIn(1000);
-          atpay.buy(amount, ref, cartReturn);
-        }else{
-          atpayLogin(amount, ref, cartReturn);
-        }
-      }else{
-        alert("You have not made a purchase");
-      }
-    } // btn_confirm
-
-    function cartReturn(data) {
-      $(".atpay_overlay").fadeOut(1000);
-      alert('Thank You, Your Purchase is Complete!');
-      atPayResponse = data;
-      if(localStorage[atPayResponse.referrer_context]){
-        localStorage[atPayResponse.referrer_context]=Number(localStorage[atPayResponse.referrer_context])+1;
-      } else {
-        localStorage[atPayResponse.referrer_context]=1;
-      }
-      atPayClearCart();
-      $(".notice").toggle();
-      $('#atpay_cart, #cart_actions, #totals').toggle();
-      atpaySessionCheck();
-    } // end atPayReturn
-
   </script>
 
 <?php }
