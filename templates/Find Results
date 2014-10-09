@@ -1,0 +1,23 @@
+Searching 26 files for "submit_button"
+
+/Users/isaiahbaca/Sites/empty_wp/wp-content/plugins/atpay-jssdkv1.1/templates/atpay-offers.php:
+  365  
+  366  
+  367: 		<?php @submit_button(); ?>
+  368  
+  369  
+  ...
+  377  
+  378  	<?php do_settings_sections('wp_plugin_template'); ?>
+  379: 	<?php // @submit_button(); ?>
+  380  </div> <!-- .wrap -->
+  381  
+
+/Users/isaiahbaca/Sites/empty_wp/wp-content/plugins/atpay-jssdkv1.1/templates/settings.php:
+  428  
+  429  		<?php do_settings_sections('wp_plugin_template'); ?>
+  430: 		<?php @submit_button(); ?>
+  431      </form>
+  432  </div> <!-- .wrap -->
+
+3 matches across 2 files

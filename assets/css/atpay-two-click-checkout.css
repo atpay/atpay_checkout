@@ -1,0 +1,540 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,100);
+
+
+
+
+
+#atpay_cart_header td{
+
+	background-color: red !important;
+
+}
+
+.offer_table{
+width: 100%;
+}
+
+
+.atpay table.data th {text-align: left; background-color:#287992; color: #fff; }
+
+.atpay table.data th ,.atpay table.data td  {padding:5px !important; border:1px solid #c7c7c7;}
+
+.atpay table.data th.cent, .atpay table.data td.cent {text-align: center;}
+
+.atpay table.data {text-align: left;    border-spacing: 2px;
+    border-collapse: separate;}
+
+
+.atpay a.button {color: #fff !important; background-color: #287992; border: none; border-radius: 0;}
+
+.atpay a.button:hover {color: #fff !important; background-color: #287992;  border: none;}
+
+.atpay tr.camp_details td {background-color: #c7c7c7;}
+
+.atpay table td.status, .atpay table td.info {text-transform: capitalize; text-align: center;}
+
+
+.atpay table#camp_table {width: 100%;}
+
+
+
+
+.atpay.wrap {
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 1em 0 1em 6px;
+	max-width: 960px;
+	padding-right: 2%;
+	width: 97%;
+}
+
+.atpay.wrap h1 {
+    font-size: 1.7em;
+    font-weight: 300;
+    margin: 0.7em 0;
+}
+
+.atpay.wrap #plugin-title {
+	border-bottom: 1px solid #c7c7c7;
+	margin: 0.1em 0 0;
+	padding: 2% 2.3%;
+}
+
+.atpay.wrap h2 {
+	padding: 9px 0 4px;
+}
+
+.atpay.wrap h3 {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.atpay.wrap .container {
+	float: left;
+	margin-bottom: 2em;
+	max-width: 960px;
+	width: 100%;
+}
+
+.atpay.wrap .inner {
+	float: left;
+	padding: 2% 3%;
+	width: 94%;
+}
+
+.atpay.wrap p {
+	font-weight: 400;
+	line-height: 1.5;
+	margin-top: 0;
+}
+
+.atpay.wrap #intro p {
+	font-weight: 300;
+    margin-bottom: 0;
+    margin-top: .6em;
+}
+
+.atpay.wrap strong {
+	font-weight: 700;
+}
+
+.atpay.wrap #intro a {
+	color: #FFF;
+}
+
+.atpay.wrap .blue-bg {
+	background: url(../images/atpay-two-click-checkout-bluebg.jpg) 0 0 repeat #2a7b94;
+	color: #FFF;
+}
+
+.atpay.wrap .icon32 {
+	margin-top: -3px;
+}
+
+.atpay.wrap .cart-icon {
+	background: url(../images/atpay-two-click-checkout-carticon32X32.png) center center no-repeat;
+	margin-right: 1em;
+}
+
+.atpay.wrap #tabs {
+	max-width: 960px;
+	width: 100%;
+}
+
+.atpay.wrap #tabs span.navigation {
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	top: 14px; left: 24px;
+	width: 20px;
+}
+
+.atpay.wrap #tabs span.api {
+	background: url(../images/icon-api.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs li.ui-state-active span.api {
+	background: url(../images/icon-api-white.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs span.store {
+	background: url(../images/icon-store.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs li.ui-state-active span.store {
+	background: url(../images/icon-store-white.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs span.reports {
+	background: url(../images/icon-reports.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs li.ui-state-active span.reports {
+	background: url(../images/icon-reports-white.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs span.docs {
+	background: url(../images/icon-documentation.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs li.ui-state-active span.docs {
+	background: url(../images/icon-documentation-white.png) left center no-repeat;
+}
+
+.atpay.wrap #tabs li.ui-state-active a:after {
+	content: url(../images/icon-navarrow.png);
+	margin-top: 1px;
+	position: absolute;
+	right: -1px;
+}
+
+.atpay.wrap .ui-widget-content {
+	background: none !important;
+	border: 0 !important;
+	color: #333 !important;
+}
+
+.atpay.wrap .ui-widget-header {
+	background: none !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav {
+	border-top: 1px solid #b9b7bb !important;
+	border-left: 1px solid #b9b7bb !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li, .atpay.wrap .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: none !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	margin: 0 !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li, .atpay.wrap .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	border-bottom: 1px solid #b9b7bb !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li a:hover {
+	background: #F7F7F7 !important;
+	box-shadow: inset 0 0 3px #D7D7D7;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
+	box-shadow: none;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li a {
+	background: #edeaf0 !important;
+	float: none !important;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300 !important;
+	padding: 1em 2em 1em 3.4em !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	background: #3490ad !important;
+	background: -moz-linear-gradient(top, #3490ad 0%, #2c7d97 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3490ad), color-stop(100%,#2c7d97)) !important;
+	background: -webkit-linear-gradient(top, #3490ad 0%,#2c7d97 100%) !important;
+	background: -o-linear-gradient(top, #3490ad 0%,#2c7d97 100%) !important;
+	background: -ms-linear-gradient(top, #3490ad 0%,#2c7d97 100%) !important;
+	background: linear-gradient(to bottom, #3490ad 0%,#2c7d97 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3490ad', endColorstr='#2c7d97',GradientType=0 ) !important;
+	color: #FFF !important;
+}
+
+.atpay.wrap .ui-helper-reset, .atpay.wrap .ui-widget-content {
+	color: #333 !important;
+	font-size: 14px !important;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-panel {
+	background: url(../images/atpay-two-click-checkout-graybg.jpg) 0 0 repeat #2a7b94 !important;
+	border: 1px solid #c7c7c7 !important;
+	border-radius: 0 2px 7px 7px !important;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.atpay.wrap .ui-tabs .ui-tabs-panel > .inner {
+	padding: 3%;
+}
+
+.atpay.wrap .ui-widget-content a {
+	color: #287992;
+}
+
+
+
+
+.atpay.wrap .ui-widget input, .atpay.wrap .ui-widget select, .atpay.wrap .ui-widget textarea {
+	border: 1px solid #c9c6cc !important;
+	border-radius: 0 !important;
+	color: #616161 !important;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	padding: .5em !important;
+}
+
+.atpay.wrap .ui-widget input[type=submit], .atpay.wrap .ui-widget-content a.button-primary {
+	background: #287992 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	color: #FFF !important;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	height: auto !important;
+	padding: .5em 1em !important;
+}
+
+.atpay.wrap .ui-widget input[type=submit]:hover, .atpay.wrap .wp-core-ui .button-primary:hover {
+	box-shadow: inset 0 0 2px #195162;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="url"]:focus, select:focus {
+	box-shadow: inset 0 0 3px #e6e6e6 !important;
+}
+
+.atpay.wrap .inner-panel {
+	background: #f7f7f7;
+	border: 1px solid #D4D1D7;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #D7D7D7;
+	float: left;
+	width: 100%;
+}
+
+.atpay.wrap .inner-panel .inner {
+	min-height: 100px;
+	padding: 2%;
+	width: 96%;
+}
+
+.atpay.wrap .inner-panel .title {
+	background: #edeaf0;
+	background: -moz-linear-gradient(top, #edeaf0 0%, #f2f0f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#edeaf0), color-stop(100%,#f2f0f2));
+	background: -webkit-linear-gradient(top, #edeaf0 0%,#f2f0f2 100%);
+	background: -o-linear-gradient(top, #edeaf0 0%,#f2f0f2 100%);
+	background: -ms-linear-gradient(top, #edeaf0 0%,#f2f0f2 100%);
+	background: linear-gradient(to bottom, #edeaf0 0%,#f2f0f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaf0', endColorstr='#f2f0f2',GradientType=0 );
+	border-bottom: 1px solid #d4d1d7;
+	border-radius: 5px 5px 0 0;
+	padding: 1.5% 2%;
+}
+
+.atpay.wrap .inner-panel .title p {
+	margin-bottom: 0;
+}
+
+.atpay.wrap .form-table {
+	margin-bottom: 1em;
+}
+
+.atpay.wrap .form-table th {
+	padding: 0;
+}
+
+.atpay.wrap .form-table th, td {
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.atpay.wrap .form-table td {
+	padding: 8px 0;
+}
+
+.atpay.wrap #environment_options .form-table th {
+	display: none;
+}
+
+.atpay.wrap #env_options .form-table td {
+	font-size: 14px;
+}
+
+.atpay.wrap input[type="checkbox"], input[type="radio"] {
+	margin: 3px 4px 0 0;
+}
+
+.atpay.wrap input#prod_options {
+	margin-left: 2.5em;
+}
+
+.five-sixths,
+.four-fifths,
+.four-sixths,
+.one-fifth,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fifths,
+.three-fourths,
+.three-sixths,
+.two-fifths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin-left: 4.166666666%; /* 48px / 1152px */
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 47.9166666666%; /* 552px / 1152px */
+}
+
+.one-third,
+.two-sixths {	width: 30.555555555%; /* 352px / 1152px */
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65.277777777%; /* 752px / 1152px */
+}
+
+.one-fourth {
+	width: 21.875%; /* 252px / 1152px */
+	width: 20.75%;
+}
+
+.three-fourths {
+	width: 73.958333333%; /* 852px / 1152px */
+}
+
+.one-fifth {
+	width: 16.666666666%; /* 192px / 1152px */
+}
+
+.two-fifths {
+	width: 37.5%; /* 432px / 1152px */
+}
+
+.three-fifths {
+	width: 58.333333333%; /* 672px / 1152px */
+}
+
+.four-fifths {
+	width: 79.166666666%; /* 912px / 1152px */
+}
+
+.one-sixth {
+	width: 13.194444444%; /* 152px / 1152px */
+}
+
+.one-third {
+	width: 29.1%;
+}
+
+.five-sixths {
+	width: 82.638888888%; /* 952px / 1152px */
+}
+
+.first {
+	margin-left: 0;
+}
+
+.atpay.wrap .ui-tabs-vertical {
+	padding: 0 !important;
+}
+
+.atpay.wrap .ui-tabs-vertical .ui-tabs-nav {
+	float: left;
+	margin: 0;
+	width: 27% !important;
+}
+.atpay.wrap .ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px .2em 0;
+	position: relative;
+	width: 100%;
+}
+
+.atpay.wrap .ui-tabs-vertical .ui-tabs-nav li a {
+	display:block;
+}
+
+.atpay.wrap .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: .1em;
+	border-right-width: 1px;
+	border-right-width: 1px;
+}
+
+.atpay.wrap .ui-tabs-vertical .ui-tabs-panel {
+	float: left;
+	padding: 0 !important;
+	width: 72%;
+}
+
+
+/* START TOOLTIP STYLES */
+#tooltip, .atpay.wrap .colorpicker {
+	background: #eaf0f5;
+	background: -moz-linear-gradient(top, #eaf0f5 0%, #e1eaf3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaf0f5), color-stop(100%,#e1eaf3));
+	background: -webkit-linear-gradient(top, #eaf0f5 0%,#e1eaf3 100%);
+	background: -o-linear-gradient(top, #eaf0f5 0%,#e1eaf3 100%);
+	background: -ms-linear-gradient(top, #eaf0f5 0%,#e1eaf3 100%);
+	background: linear-gradient(to bottom, #eaf0f5 0%,#e1eaf3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf0f5', endColorstr='#e1eaf3',GradientType=0 );
+	border: 1px solid #d4d1d7;
+	border-radius: 7px;
+	box-shadow: 2px 3px 3px #d4d1d7;
+    color: #6e6e6e;
+    padding: 1.1em;
+    position: absolute;
+    text-align: center;
+    z-index: 100;
+}
+
+#tooltip:after /* triangle decoration */ {
+	content: url(../images/icon-tooltiparrow.png);
+	position: absolute;
+	bottom: -16px; left: 46%;
+}
+
+#tooltip.left:after {
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:after {
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+.tooltip {
+	background: url(../images/icon-tooltip.png) center center no-repeat;
+	display: inline-block;
+	height: 12px;
+	margin-left: .5em;
+	width: 12px;
+}
+
+.atpay.wrap input.color {
+	background: url(../images/icon-colorpicker.png) no-repeat 95px center #FFF !important;
+	float: left;
+}
+
+.atpay.wrap .color-picker {
+	float: left;
+	position: relative;
+}
+
+.atpay.wrap .colorbox {
+	border: 1px solid #EEE;
+	float: left;
+	height: 20px;
+	margin: 5px 0 0 -28px;
+	width: 20px;
+}
+
+.atpay.wrap .colorpicker {
+	display: none;
+	position: absolute;
+	top: -95px; right: -242px;
+}
+
+.atpay.wrap .colorpicker:before /* triangle decoration */ {
+	content: url(../images/icon-tooltipleftarrow.png);
+	position: absolute;
+	top: 46%; left: -11px;
+}
+
+.atpay.wrap .submit {
+	float: right;
+	margin-right: 7px;
+}
