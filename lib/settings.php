@@ -39,13 +39,6 @@ if(!class_exists('AtPay_Connect_Settings'))
 
         	add_settings_section(
         	    'wp_plugin_template-section',
-        	    '@Pay API Sandbox Credentials',
-        	    array(&$this, 'settings_section_wp_plugin_template'),
-        	    'sb_options'
-        	);
-
-        	add_settings_section(
-        	    'wp_plugin_template-section',
         	    '@Pay API Production Credentials',
         	    array(&$this, 'settings_section_wp_plugin_template'),
         	    'prod_options'
@@ -140,39 +133,11 @@ if(!class_exists('AtPay_Connect_Settings'))
 
             );
 
-
-
-
-
-
-
-            add_settings_section(
-                        'wp_plugin_template-section',
-                        'Mailchimp Options',
-                        array(&$this, 'settings_section_wp_plugin_template'),
-                        'mail_chimp_options'
-                    );
-
-               add_settings_field(
-                    'mail_chimp_api',
-                    'Mailchimp API Credentials',
-                    array(&$this, 'settings_field_input_text'),
-                    'mail_chimp_options',
-                    'wp_plugin_template-section',
-                    array(
-                        'field' => 'mail_chimp_api'
-                    )
-                );
-
-
-
-
            // Possibly do additional admin_init tasks
         } // END public static function activate
 
         public function settings_section_wp_plugin_template()
         {
-            // Think of this as help text for the section.
             // echo '@Pay API Credentials';
         }
 
